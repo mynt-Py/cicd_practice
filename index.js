@@ -5,7 +5,7 @@ const server = http.createServer((req, res) => {
   res.statusCode = 200; 
   res.setHeader('Content-Type', 'text/plain'); 
   //res = response object
-  res.end('Hello World from DevOps Lab!\n'); 
+  res.end('Hello World from egco344\n'); 
 }); 
  
 server.listen(port, () => { 
